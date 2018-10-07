@@ -27,7 +27,6 @@
 <?php 
 include "navbar.php";
 include "chatbox.php";
-
 ?>
 
 </body>

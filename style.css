@@ -11,7 +11,8 @@
 }	
 
 #textoverlay{
-	margin-top: 15%;	
+	margin-top: 15%;
+    color: rgba(255, 255, 255, 0.7);	
 }
 
 #container1 p{
@@ -28,7 +29,7 @@ body{
     border: none;	
 }
 .navbar{
-	background: grey; 
+	background: #345759; 
 	margin-bottom:0;
    	z-index: -1;
 }
@@ -53,6 +54,7 @@ body{
 	background: none;
 }
 
+
 @media only screen and (max-width: 767px){
 #container1{
 		background: url('./images/background.jpg') center center;
@@ -68,6 +70,7 @@ body{
 #textoverlay{
 	margin-top: 50%;	
 }
+
 }
 /*navbar ends*/
 /*chat box*/
