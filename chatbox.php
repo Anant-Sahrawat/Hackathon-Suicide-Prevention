@@ -17,26 +17,28 @@
     						console.log(input);
    							if(questionNum == -1) {
    								question = "What's your name?";
-   								setTimeout(timedQuestion, 1500);
+   								setTimeout(timedQuestion, 700);
    							}
    							else if (questionNum == 0) {
         						$('.msg-insert').append("<div class='msg-receive'>It's a great name</div>");
         						document.getElementById("input").value = "";   		
        							question = 'What does it mean ?';			    			
-        						setTimeout(timedQuestion, 1500);									
+        						setTimeout(timedQuestion, 700);									
     						}
 
     						else if (questionNum == 1) {
         						$('.msg-insert').append("<div class='msg-receive'>Ohh, that's interesting!</div>");
         						document.getElementById("input").value = "";   
         						question = 'Which city do you live in?';					      	
-        						setTimeout(timedQuestion, 1500);
+        						setTimeout(timedQuestion, 700);
         					}
     						else if (questionNum == 2){
         						$('.msg-insert').append("<div class='msg-receive'>It's a good place</div>");
-        						document.getElemtentById("input").value = "";
         						question = 'Tell me about yourself';
-        						setTimeout(timedQuestion, 1500);
+        						setTimeout(timedQuestion, 700);
+    						}
+    						else if (questionNum == 3){
+    							$('.msg-insert').append("<div class='msg-receive'>It's nice to get to know you</div>");
     						}
     						
     					}
