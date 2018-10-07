@@ -10,7 +10,14 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="front.php">Home</a></li>
         <li><a href="#">Posts</a></li>
-        <li><a href="article_suicide.php">About Suicide</a></li>
+        <li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Article
+        <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+          <li><a href="#">About Suicide</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+		</li>
 		<li><a href="#">Gallery</a></li>
 	</ul>
       

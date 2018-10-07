@@ -31,7 +31,7 @@ body{
 .navbar{
 	background: #345759; 
 	margin-bottom:0;
-   	z-index: -1;
+   	z-index: 0;
 }
 
 .navbar-right li>a{
@@ -182,5 +182,10 @@ body{
 /*carousel*/
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 100%
+      width: 100%;
+        
+  }
+  
+  #mycarousel{
+	z-index: -1;  
   }
