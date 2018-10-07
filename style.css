@@ -3,10 +3,6 @@
 	background : url('./images/background.jpg');
     background-size: 100%, 100%;
 	color: orange;
-	filter:brightness(0.2);
-	}
-#text {
-	filter:brightness(100);
 }
 /*navbar starts */
 body{
