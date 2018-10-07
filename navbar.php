@@ -18,7 +18,7 @@
           <li><a href="#">About</a></li>
         </ul>
 		</li>
-		<li><a href="#">Gallery</a></li>
+		<li><a href="volunteercontact.php">Contact Volunteers</a></li>
 	</ul>
       
     </div>
