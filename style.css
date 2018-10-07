@@ -87,6 +87,7 @@ body{
 	position: fixed;
 	right : 0;
 	bottom : 0 ;
+	z-index: +1;
 }
 .chat-box{
 	position: absolute;
@@ -135,7 +136,7 @@ body{
 	padding: 10px;
 	resize: none;
 }
-.chat-text textarea:active, .chat-text textarea:focus, .chat-text textarea:hover{
+.chat-text input:active, .chat-text input:focus, .chat-text input:hover{
 	border-color: royalblue;
 }
 .msg-send{
@@ -178,3 +179,8 @@ body{
 	opacity: .9;
 }
 /*chat box ends */
+/*carousel*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%
+  }

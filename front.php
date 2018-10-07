@@ -10,7 +10,6 @@
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="script.js"></script>
-
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
@@ -27,7 +26,8 @@
 <?php 
 include "navbar.php";
 include "chatbox.php";
+include "carousel.php";
 ?>
-
+<br><br><br>
 </body>
 </html>
