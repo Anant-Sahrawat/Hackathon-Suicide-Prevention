@@ -1,6 +1,8 @@
 <html>
 <head>
 <title>We care about you!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,13 +12,14 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Charmonman|K2D" rel="stylesheet">
 </head>
 <body>
 <div class="container-fluid text-center" id="container1">
-	<div><h1 style="font-size: 3.5em;">Talk to Us. We care about You !!!!</h1>
-	<p style="font-size: 2em;">Feeling Alone? Call us, Chat with us, we are here to listen to you. 
-	 <br>Tollfree No. +91-22-27546669 (24*7)
+	<div id="textoverlay"><h1>Talk to Us. We care about You !!!!</h1>
+	<p>Feeling Alone? Call us, Chat with us, we are here to listen to you. 
+	 <br>Tollfree No. +91-22-27546669 (24X7)
 	</p>
 </div>	
 </div>
