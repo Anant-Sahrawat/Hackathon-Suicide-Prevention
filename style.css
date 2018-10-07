@@ -34,14 +34,14 @@ body{
    	z-index: 0;
 }
 
-.navbar-right li>a{
+.navbar-left li>a{
 	
 	color: white;
 	font-weight: bold;
 	font-size: 1.4em;
 } 
 
-.navbar-right li>a:hover{
+.navbar-left li>a:hover{
 	color: black;
 	background: none;
 	border: 0;
@@ -49,7 +49,7 @@ body{
     transition-timing-function: linear;
 }
 
-.navbar-right li>a:visited{
+.navbar-left li>a:visited{
 	border: 0;
 	background: none;
 }

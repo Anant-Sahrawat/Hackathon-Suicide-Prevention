@@ -9,17 +9,19 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="front.php">Home</a></li>
-        <li><a href="#">Posts</a></li>
-        <li class="dropdown">
+        <li><a href="volunteercontact.php">Contact Volunteers</a></li>
+		<li class="dropdown">
 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Article
         <span class="caret"></span></a>
 		<ul class="dropdown-menu">
-          <li><a href="#">About Suicide</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="article_suicide.php">About Suicide</a></li>
+          <li><a href="">Mental Health Awareness</a></li>
         </ul>
 		</li>
-		<li><a href="volunteercontact.php">Contact Volunteers</a></li>
+		<li><a href="tel:+91-22-27546669">Toll Free Number</a></li>
 	</ul>
+	
+	
       
     </div>
 </div>

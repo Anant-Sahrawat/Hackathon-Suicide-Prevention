@@ -19,7 +19,7 @@
 include "navbar.php";
 include "chatbox.php";
 ?>
-<center><h3>Contact These People...They are your friends...</h3></center>
+<center><h3><b>Contact These People...They are your friends...</b></h3></center>
 <?php
 $servername="localhost";
 $username="root";
