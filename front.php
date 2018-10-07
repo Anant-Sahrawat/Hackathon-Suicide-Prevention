@@ -20,7 +20,7 @@
 	</p> 
 </div>
 <?php 
-include "navbar.php"; 
+include "navbar.php";
 ?>
 </body>
 </html>
