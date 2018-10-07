@@ -2,7 +2,8 @@
 	height: 100%;
 	background : url('./images/background.jpg');
     background-size: 100%, 100%;
-	color: orange;
+	color: white;
+	font-weight: bold;
 }
 /*navbar starts */
 body{
@@ -18,34 +19,16 @@ body{
    	z-index: +1;
 }
 
-.navbar-left{
-	color: white;
-	text-shadow: 2px 2px black;
-	margin-top: 1.5em;
-
-}
-
-.navbar-left:hover{
-	color:white;
-	text-decoration: none;
-}
-
-.navbar-left:visited{
-	color:white;
-	text-decoration: none;
-}
-
 .navbar-right li>a{
 	
 	color: white;
 	font-weight: bold;
 	font-size: 1.4em;
-	text-shadow: 2px 2px black;
 } 
 
 .navbar-right li>a:hover{
-	color: red;
-	background: transparent;
+	color: #0c97d3;
+	background: none;
 	border: 0;
 	transition-duration: 200ms;
     transition-timing-function: linear;
@@ -53,6 +36,7 @@ body{
 
 .navbar-right li>a:visited{
 	border: 0;
-	background: transparent;
+	background: none;
 }
+
 /*navbar ends*/

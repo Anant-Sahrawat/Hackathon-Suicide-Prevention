@@ -14,10 +14,11 @@
 </head>
 <body>
 <div class="container-fluid text-center" id="container1">
-	<h1>Talk to Us. We care about You !!!!</h1>
-	<p>Feeling Alone? Call us, Chat with us, we are here to listen to you. 
-	 Tollfree No. +91-22-27546669 (24*7)
-	</p> 
+	<div><h1 style="font-size: 3.5em;">Talk to Us. We care about You !!!!</h1>
+	<p style="font-size: 2em;">Feeling Alone? Call us, Chat with us, we are here to listen to you. 
+	 <br>Tollfree No. +91-22-27546669 (24*7)
+	</p>
+</div>	
 </div>
 <?php 
 include "navbar.php";
