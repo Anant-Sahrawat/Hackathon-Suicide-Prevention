@@ -8,7 +8,7 @@
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
+        <li><a href="front.php">Home</a></li>
         <li><a href="#">Posts</a></li>
         <li><a href="article_suicide.php">About Suicide</a></li>
 		<li><a href="#">Gallery</a></li>
