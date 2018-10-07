@@ -34,7 +34,7 @@ $sql="select username, phone from volunteer_details;";
 $result=$conn->query($sql);
 
 while($row=$result->fetch_assoc()){
-echo "<br>".$row["username"]." <a href=\"tel:\ ".$row["phone"]."\">Call Me!</a>";
+echo "<br><p style=\"font-size: 2em; text-align: center;\">".$row["username"]." <a href=\"tel:\ ".$row["phone"]."\">Call Me!(".$row["phone"].")</a></p>";
 }
 $conn->close();
 ?>
