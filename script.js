@@ -23,5 +23,4 @@ $(function(){
 			$('.msg-insert').prepend("<div class='msg-send'>"+msg+"</div>");
 			}
 	});
-
 });

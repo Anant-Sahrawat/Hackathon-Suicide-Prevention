@@ -1,4 +1,4 @@
-	<div class="wrapper">
+<div class="wrapper">
 		<div class="chat-box">
 			<div class="chat-head">
 				<p>Chat with us</p>
@@ -14,4 +14,4 @@
 				</div>
 			</div>
 		</div>
-	</div>
+</div>
