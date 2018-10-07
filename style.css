@@ -128,8 +128,8 @@ body{
 	height: 45px;
 	width: inherit;
 }
-.chat-text textarea{
-	width: inherit;
+.chat-text input{
+	width: 100%;
 	height: inherit; 
 	box-sizing: border-box;
 	border: 1px solid #bdc3c7;
