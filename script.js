@@ -1,6 +1,6 @@
 $(function(){
 	var arrow = $('.chat-head img');
-	var textarea = $('.chat-text textarea');
+	var input = $('.chat-text input');
 
 	arrow.on('click', function(){
 		var src = arrow.attr('src');
@@ -14,13 +14,13 @@ $(function(){
 		}
 	});
 
-	textarea.keypress(function(event) {
+	input.keypress(function(event) {
 		var $this = $(this);
 
 		if(event.keyCode == 13){
 			var msg = $this.val();
 			$this.val('');
-			$('.msg-insert').prepend("<div class='msg-send'>"+msg+"</div>");
+			$('.msg-insert').append("<div class='msg-send'>"+msg+"</div>");
 			}
 	});
 });
